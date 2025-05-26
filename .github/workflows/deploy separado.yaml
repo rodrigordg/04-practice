@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: teste
-        run: npm run teste
+        run: npm run test
 
   deploy:
     runs-on: ubuntu-latest
